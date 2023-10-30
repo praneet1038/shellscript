@@ -1,7 +1,7 @@
 #!/bin/bash 
 echo "helloworld"
-x=ntr
-y=ysr
+x=$1
+y=$2
 z=$(date)
 echo "$x: hi $y"
 echo "$y: Hi $x how are you?"
